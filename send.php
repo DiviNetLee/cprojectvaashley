@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'ashleyfreeze5823@gmail.com';
+    $email_from = '****************@*****.com';
 
     $email_subject = "Contact Form";
 
@@ -11,7 +11,7 @@
         "$email.\n".
         "$message.\n";
 
-    $to = "ashleyfreeze5823@gmail.com";
+    $to = "****************@*****.com";
 
     $headers = "From: $email \r\n";
 
